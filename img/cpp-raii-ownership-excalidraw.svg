@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
+  <filter id="rough"><feTurbulence type="fractalNoise" baseFrequency="0.017" numOctaves="1" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.4"/></filter>
+  <style>text{font-family:'Comic Sans MS','Segoe Print',cursive;fill:#1f2937;font-weight:700}.line{fill:none;stroke:#1f2937;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.box{stroke:#1f2937;stroke-width:4;stroke-linejoin:round}</style>
+  <rect width="1500" height="620" rx="22" fill="#fffdf7"/>
+  <g filter="url(#rough)">
+    <text x="93" y="90" font-size="34">scope</text><path class="line" d="M75 112v400h430" stroke-dasharray="10 10"/>
+    <rect class="box" x="155" y="210" width="235" height="165" rx="14" fill="#c7f0ef"/><text x="220" y="270" font-size="32">object</text><circle cx="274" cy="321" r="28" fill="#ffe0a6" stroke="#1f2937" stroke-width="4"/><path class="line" d="M274 349v38M274 321h84M342 321l-15-13M342 321l-15 13"/>
+    <rect class="box" x="590" y="221" width="220" height="145" rx="14" fill="#ffd1dc"/><path d="M638 273h124v75H638z" fill="#fffdf7" stroke="#1f2937" stroke-width="4"/><path d="M638 273l62-38 62 38" fill="#ffe0a6" stroke="#1f2937" stroke-width="4" stroke-linejoin="round"/><text x="625" y="420" font-size="31">resource</text>
+    <path class="line" d="M405 292c55-80 120-80 171 0"/><path d="M552 278l25 14-28 8" fill="none" stroke="#1f2937" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path class="line" d="M400 494c175 52 346 52 520 0" stroke="#ff6b6b"/><path d="M897 480l28 14-29 9" fill="none" stroke="#ff6b6b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="543" y="565" font-size="30" fill="#ff6b6b">leave scope → cleanup</text>
+    <rect class="box" x="1025" y="205" width="330" height="190" rx="14" fill="#ffe0a6"/><text x="1065" y="260" font-size="31">one owner</text><circle cx="1100" cy="320" r="25" fill="#c7f0ef" stroke="#1f2937" stroke-width="4"/><circle cx="1275" cy="320" r="25" fill="#c7f0ef" stroke="#1f2937" stroke-width="4"/><path class="line" d="M1132 320h106"/><path d="M1217 305l26 15-26 15" fill="none" stroke="#1f2937" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="1076" y="450" font-size="29">move ownership</text>
+  </g>
+</svg>
